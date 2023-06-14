@@ -56,14 +56,14 @@
     width: 50px;
     color: white;
 }
-
-.estudantes-div{ background-image: linear-gradient(#0c8620, #4edd66);
+.ESTUDANTES{background-image: linear-gradient(#0c8620, #4edd66);}
+.estudantes-div{ 
     display:flex;
     justify-content: center;
          align-items:center;
-
-
-
+         display: grid;
+         grid-template-columns: 20% 20% 20% 20%;
+     
 
 }
 

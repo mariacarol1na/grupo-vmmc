@@ -1,70 +1,13 @@
-*{margin: 0;
-     padding: 0;
+@import url(styles/header.css);
+
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
     }
-.cabeçalho{ 
-    background-color: blue;
-    color:rgb(184, 247, 182);
-    display: flex;
-    justify-content: space-around;
-    padding: 18px 0;
-    font-family: arial;
-    align-items: center;
-}
 
-.cabeçalho-titulo {
-    font-size: 32px;
-    font-style: oblique;
-}
-
-.cabeçalho-lista {
-    font-size: 24px;
-}
-
-.cabeçalho-lista-item{
-    display: inline-flex;
-    justify-content: space-around;
-    padding: 20px;
-
-}
-.escola{ 
-         background-image: linear-gradient(#0c8620, #4edd66);
-         color: black;
-         display:flex;
-         justify-content: center;
-         align-items:center;
-         padding: 24px 0;
- }
- .escola-conteudo {
-    width: 40%;
-    font-family: arial; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-           
- }
-.escola-imagem { 
-    margin: 0 20px;
-}
-.escola.titulo { 
-    padding: 24px 0;
-}
-.escola-texto { 
-    font-size: 30px;
-
-}  
- .estudante-image {
-    width: 50px;
-    color: white;
-}
-.ESTUDANTES{background-image: linear-gradient(#0c8620, #4edd66);}
-.estudantes-div{ 
-    display:flex;
-    justify-content: center;
-         align-items:center;
-         display: grid;
-         grid-template-columns: 20% 20% 20% 20%;
-     
-
-}
+body{
+    background-color: var(--cor-de-fundo) ;
 
 
+}
